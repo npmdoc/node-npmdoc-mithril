@@ -1,0 +1,1146 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a>mithril (v1.1.1)</a>
+</h1>
+<h4>A framework for building brilliant applications</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mithril">module mithril</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.hyperscript">
+            function <span class="apidocSignatureSpan">mithril.</span>hyperscript
+            <span class="apidocSignatureSpan">(selector)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec">
+            function <span class="apidocSignatureSpan">mithril.</span>ospec
+            <span class="apidocSignatureSpan">(subject, predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.stream">
+            function <span class="apidocSignatureSpan">mithril.</span>stream
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.vnode">
+            function <span class="apidocSignatureSpan">mithril.</span>vnode
+            <span class="apidocSignatureSpan">(tag, key, attrs, children, text, dom)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mithril.hyperscript">module mithril.hyperscript</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.hyperscript.hyperscript">
+            function <span class="apidocSignatureSpan">mithril.</span>hyperscript
+            <span class="apidocSignatureSpan">(selector)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.hyperscript.fragment">
+            function <span class="apidocSignatureSpan">mithril.hyperscript.</span>fragment
+            <span class="apidocSignatureSpan">(attrs, children)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.hyperscript.trust">
+            function <span class="apidocSignatureSpan">mithril.hyperscript.</span>trust
+            <span class="apidocSignatureSpan">(html)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mithril.ospec">module mithril.ospec</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.ospec">
+            function <span class="apidocSignatureSpan">mithril.</span>ospec
+            <span class="apidocSignatureSpan">(subject, predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.after">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>after
+            <span class="apidocSignatureSpan">(predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.afterEach">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>afterEach
+            <span class="apidocSignatureSpan">(predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.before">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>before
+            <span class="apidocSignatureSpan">(predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.beforeEach">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>beforeEach
+            <span class="apidocSignatureSpan">(predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.new">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>new
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.only">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>only
+            <span class="apidocSignatureSpan">(subject, predicate, silent)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.run">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>run
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.spec">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>spec
+            <span class="apidocSignatureSpan">(subject, predicate)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.ospec.spy">
+            function <span class="apidocSignatureSpan">mithril.ospec.</span>spy
+            <span class="apidocSignatureSpan">(fn)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mithril.stream">module mithril.stream</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.stream.stream">
+            function <span class="apidocSignatureSpan">mithril.</span>stream
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.stream.combine">
+            function <span class="apidocSignatureSpan">mithril.stream.</span>combine
+            <span class="apidocSignatureSpan">(fn, streams)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.stream.merge">
+            function <span class="apidocSignatureSpan">mithril.stream.</span>merge
+            <span class="apidocSignatureSpan">(streams)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.stream.scan">
+            function <span class="apidocSignatureSpan">mithril.stream.</span>scan
+            <span class="apidocSignatureSpan">(reducer, seed, stream)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.stream.scanMerge">
+            function <span class="apidocSignatureSpan">mithril.stream.</span>scanMerge
+            <span class="apidocSignatureSpan">(tuples, seed)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">mithril.stream.</span>HALT</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mithril.vnode">module mithril.vnode</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.vnode.vnode">
+            function <span class="apidocSignatureSpan">mithril.</span>vnode
+            <span class="apidocSignatureSpan">(tag, key, attrs, children, text, dom)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.vnode.normalize">
+            function <span class="apidocSignatureSpan">mithril.vnode.</span>normalize
+            <span class="apidocSignatureSpan">(node)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mithril.vnode.normalizeChildren">
+            function <span class="apidocSignatureSpan">mithril.vnode.</span>normalizeChildren
+            <span class="apidocSignatureSpan">(children)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mithril" id="apidoc.module.mithril">module mithril</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.hyperscript" id="apidoc.element.mithril.hyperscript">
+        function <span class="apidocSignatureSpan">mithril.</span>hyperscript
+        <span class="apidocSignatureSpan">(selector)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hyperscript(selector) {
+	// Because sloppy mode sucks
+	var attrs = arguments[1], start = 2, children
+
+	if (selector == null || typeof selector !== "string" &amp;&amp; typeof selector !== "function" &amp;&amp; typeof selector.view !== "function") {
+		throw Error("The selector must be either a string or a component.");
+	}
+
+	if (typeof selector === "string") {
+		var cached = selectorCache[selector] || compileSelector(selector)
+	}
+
+	if (attrs == null) {
+		attrs = {}
+	} else if (typeof attrs !== "object" || attrs.tag != null || Array.isArray(attrs)) {
+		attrs = {}
+		start = 1
+	}
+
+	if (arguments.length === start + 1) {
+		children = arguments[start]
+		if (!Array.isArray(children)) children = [children]
+	} else {
+		children = []
+		while (start &lt; arguments.length) children.push(arguments[start++])
+	}
+
+	var normalized = Vnode.normalizeChildren(children)
+
+	if (typeof selector === "string") {
+		return execSelector(cached, attrs, normalized)
+	} else {
+		return Vnode(selector, attrs.key, attrs, normalized)
+	}
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec" id="apidoc.element.mithril.ospec">
+        function <span class="apidocSignatureSpan">mithril.</span>ospec
+        <span class="apidocSignatureSpan">(subject, predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function o(subject, predicate) {
+		if (predicate === undefined) {
+			if (results == null) throw new Error("Assertions should not occur outside test definitions")
+			return new Assert(subject)
+		}
+		else if (results == null) {
+			ctx[unique(subject)] = predicate
+		} else {
+			throw new Error("Test definition shouldn't be nested. To group tests use `o.spec()`")
+		}
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.stream" id="apidoc.element.mithril.stream">
+        function <span class="apidocSignatureSpan">mithril.</span>stream
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createStream() {
+	function stream() {
+		if (arguments.length &gt; 0 &amp;&amp; arguments[0] !== HALT) updateStream(stream, arguments[0])
+		return stream._state.value
+	}
+	initStream(stream)
+
+	if (arguments.length &gt; 0 &amp;&amp; arguments[0] !== HALT) updateStream(stream, arguments[0])
+
+	return stream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.vnode" id="apidoc.element.mithril.vnode">
+        function <span class="apidocSignatureSpan">mithril.</span>vnode
+        <span class="apidocSignatureSpan">(tag, key, attrs, children, text, dom)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Vnode(tag, key, attrs, children, text, dom) {
+	return {tag: tag, key: key, attrs: attrs, children: children, text: text, dom: dom, domSize: undefined, state: undefined, _state
+: undefined, events: undefined, instance: undefined, skip: false}
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mithril.hyperscript" id="apidoc.module.mithril.hyperscript">module mithril.hyperscript</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.hyperscript.hyperscript" id="apidoc.element.mithril.hyperscript.hyperscript">
+        function <span class="apidocSignatureSpan">mithril.</span>hyperscript
+        <span class="apidocSignatureSpan">(selector)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function hyperscript(selector) {
+	// Because sloppy mode sucks
+	var attrs = arguments[1], start = 2, children
+
+	if (selector == null || typeof selector !== "string" &amp;&amp; typeof selector !== "function" &amp;&amp; typeof selector.view !== "function") {
+		throw Error("The selector must be either a string or a component.");
+	}
+
+	if (typeof selector === "string") {
+		var cached = selectorCache[selector] || compileSelector(selector)
+	}
+
+	if (attrs == null) {
+		attrs = {}
+	} else if (typeof attrs !== "object" || attrs.tag != null || Array.isArray(attrs)) {
+		attrs = {}
+		start = 1
+	}
+
+	if (arguments.length === start + 1) {
+		children = arguments[start]
+		if (!Array.isArray(children)) children = [children]
+	} else {
+		children = []
+		while (start &lt; arguments.length) children.push(arguments[start++])
+	}
+
+	var normalized = Vnode.normalizeChildren(children)
+
+	if (typeof selector === "string") {
+		return execSelector(cached, attrs, normalized)
+	} else {
+		return Vnode(selector, attrs.key, attrs, normalized)
+	}
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.hyperscript.fragment" id="apidoc.element.mithril.hyperscript.fragment">
+        function <span class="apidocSignatureSpan">mithril.hyperscript.</span>fragment
+        <span class="apidocSignatureSpan">(attrs, children)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fragment = function (attrs, children) {
+	return Vnode("[", attrs.key, attrs, Vnode.normalizeChildren(children), undefined, undefined)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.hyperscript.trust" id="apidoc.element.mithril.hyperscript.trust">
+        function <span class="apidocSignatureSpan">mithril.hyperscript.</span>trust
+        <span class="apidocSignatureSpan">(html)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">trust = function (html) {
+	if (html == null) html = ""
+	return Vnode("&lt;", undefined, undefined, html, undefined, undefined)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mithril.ospec" id="apidoc.module.mithril.ospec">module mithril.ospec</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.ospec" id="apidoc.element.mithril.ospec.ospec">
+        function <span class="apidocSignatureSpan">mithril.</span>ospec
+        <span class="apidocSignatureSpan">(subject, predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function o(subject, predicate) {
+		if (predicate === undefined) {
+			if (results == null) throw new Error("Assertions should not occur outside test definitions")
+			return new Assert(subject)
+		}
+		else if (results == null) {
+			ctx[unique(subject)] = predicate
+		} else {
+			throw new Error("Test definition shouldn't be nested. To group tests use `o.spec()`")
+		}
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.after" id="apidoc.element.mithril.ospec.after">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>after
+        <span class="apidocSignatureSpan">(predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">after = function (predicate) {
+			if (ctx[name]) throw new Error("This hook should be defined outside of a loop or inside a nested test group:\n" + predicate)
+			ctx[name] = predicate
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.afterEach" id="apidoc.element.mithril.ospec.afterEach">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>afterEach
+        <span class="apidocSignatureSpan">(predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">afterEach = function (predicate) {
+			if (ctx[name]) throw new Error("This hook should be defined outside of a loop or inside a nested test group:\n" + predicate)
+			ctx[name] = predicate
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.before" id="apidoc.element.mithril.ospec.before">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>before
+        <span class="apidocSignatureSpan">(predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">before = function (predicate) {
+			if (ctx[name]) throw new Error("This hook should be defined outside of a loop or inside a nested test group:\n" + predicate)
+			ctx[name] = predicate
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.beforeEach" id="apidoc.element.mithril.ospec.beforeEach">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>beforeEach
+        <span class="apidocSignatureSpan">(predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">beforeEach = function (predicate) {
+			if (ctx[name]) throw new Error("This hook should be defined outside of a loop or inside a nested test group:\n" + predicate)
+			ctx[name] = predicate
+		}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.new" id="apidoc.element.mithril.ospec.new">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>new
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function init() {
+	var spec = {}, subjects = [], results, only = null, ctx = spec, start, stack = 0, nextTickish, hasProcess = typeof process === "
+object", hasOwn = ({}).hasOwnProperty
+
+	function o(subject, predicate) {
+		if (predicate === undefined) {
+			if (results == null) throw new Error("Assertions should not occur outside test definitions")
+			return new Assert(subject)
+		}
+		else if (results == null) {
+			ctx[unique(subject)] = predicate
+		} else {
+			throw new Error("Test definition shouldn't be nested. To group tests use `o.spec()`")
+		}
+	}
+	o.before = hook("__before")
+	o.after = hook("__after")
+	o.beforeEach = hook("__beforeEach")
+	o.afterEach = hook("__afterEach")
+	o.new = init
+	o.spec = function(subject, predicate) {
+		var parent = ctx
+		ctx = ctx[unique(subject)] = {}
+		predicate()
+		ctx = parent
+	}
+	o.only = function(subject, predicate, silent) {
+		if (!silent) console.log(highlight("/!\\ WARNING /!\\ o.only() mode"))
+		o(subject, only = predicate)
+	}
+	o.spy = function(fn) {
+		var spy = function() {
+			spy.this = this
+			spy.args = [].slice.call(arguments)
+			spy.callCount++
+
+			if (fn) return fn.apply(this, arguments)
+		}
+		if (fn)
+			Object.defineProperties(spy, {
+				length: {value: fn.length},
+				name: {value: fn.name}
+			})
+		spy.args = []
+		spy.callCount = 0
+		return spy
+	}
+	o.run = function() {
+		results = []
+		start = new Date
+		test(spec, [], [], report)
+
+		function test(spec, pre, post, finalize) {
+			pre = [].concat(pre, spec["__beforeEach"] || [])
+			post = [].concat(spec["__afterEach"] || [], post)
+			series([].concat(spec["__before"] || [], Object.keys(spec).map(function(key) {
+				return function(done, timeout) {
+					timeout(Infinity)
+
+					if (key.slice(0, 2) === "__") return done()
+					if (only !== null &amp;&amp; spec[key] !== only &amp;&amp; typeof only === typeof spec[key]) return done()
+					subjects.push(key)
+					var type = typeof spec[key]
+					if (type === "object") test(spec[key], pre, post, pop)
+					if (type === "function") series([].concat(pre, spec[key], post, pop))
+
+					function pop() {
+						subjects.pop()
+						done()
+					}
+				}
+			}), spec["__after"] || [], finalize))
+		}
+
+		function series(fns) {
+			var cursor = 0
+			next()
+
+			function next() {
+				if (cursor === fns.length) return
+
+				var fn = fns[cursor++]
+				if (fn.length &gt; 0) {
+					var timeout = 0, delay = 200, s = new Date
+					var isDone = false
+					var body = fn.toString()
+					var arg = (body.match(/\(([\w$]+)/) || body.match(/([\w$]+)\s*=&gt;/) || []).pop()
+					if (body.indexOf(arg) === body.lastIndexOf(arg)) throw new Error("`" + arg + "()` should be called at least once")
+					try {
+						fn(function done() {
+							if (timeout !== undefined) {
+								timeout = clearTimeout(timeout)
+								if (delay !== Infinity) record(null)
+								if (!isDone) next()
+								else throw new Error("`" + arg + "()` should only be called once")
+								isDone = true
+							}
+							else console.log("# elapsed: " + Math.round(new Date - s) + "ms, expected under " + delay + "ms")
+						}, function(t) {delay = t})
+					}
+					catch (e) {
+						record(e.message, e)
+						subjects.pop()
+						next()
+					}
+					if (timeout === 0) {
+						timeout = setTimeout(function() {
+							timeout = undefined
+							record("async test timed out")
+							next()
+						}, Math.min(delay, 2147483647))
+					}
+				}
+				else {
+					fn()
+					nextTickish(next)
+				}
+			}
+		}
+	}
+	function unique(subject) {
+		if (hasOwn.call(ctx, subject)) {
+			console.warn("A test or a spec named `" + subject + "` was already defined")
+			while (hasOwn.call(ctx, subject)) subject += "*"
+		}
+		return subject
+	}
+	function hook(name) {
+		return function(predicate) {
+			if (ctx[name]) throw new Error("This hook should be defined outside of a loop or inside a nested test group:\n" + predicate)
+			ctx[name] = predicate
+		}
+	}
+
+	define("equals", "should equal", function(a, b) {return a === b})
+	define("notEquals", "should not equal", function(a, b) {return a !== b})
+	define("deepEquals", "should deep equal", deepEqual)
+	define("notDeepEquals", "should not deep equal", function(a, b ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.only" id="apidoc.element.mithril.ospec.only">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>only
+        <span class="apidocSignatureSpan">(subject, predicate, silent)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">only = function (subject, predicate, silent) {
+		if (!silent) console.log(highlight("/!\\ WARNING /!\\ o.only() mode"))
+		o(subject, only = predicate)
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	o.spec = function(subject, predicate) {
+		var parent = ctx
+		ctx = ctx[unique(subject)] = {}
+		predicate()
+		ctx = parent
+	}
+	o.only = function(subject, predicate, silent) {
+		if (!silent) console.log(highlight("/!\\ WARNING /!\\ o.<span class="apidocCodeKeywordSpan">only</span>() mode"))
+		o(subject, only = predicate)
+	}
+	o.spy = function(fn) {
+		var spy = function() {
+			spy.this = this
+			spy.args = [].slice.call(arguments)
+			spy.callCount++
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.run" id="apidoc.element.mithril.ospec.run">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>run
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function () {
+		results = []
+		start = new Date
+		test(spec, [], [], report)
+
+		function test(spec, pre, post, finalize) {
+			pre = [].concat(pre, spec["__beforeEach"] || [])
+			post = [].concat(spec["__afterEach"] || [], post)
+			series([].concat(spec["__before"] || [], Object.keys(spec).map(function(key) {
+				return function(done, timeout) {
+					timeout(Infinity)
+
+					if (key.slice(0, 2) === "__") return done()
+					if (only !== null &amp;&amp; spec[key] !== only &amp;&amp; typeof only === typeof spec[key]) return done()
+					subjects.push(key)
+					var type = typeof spec[key]
+					if (type === "object") test(spec[key], pre, post, pop)
+					if (type === "function") series([].concat(pre, spec[key], post, pop))
+
+					function pop() {
+						subjects.pop()
+						done()
+					}
+				}
+			}), spec["__after"] || [], finalize))
+		}
+
+		function series(fns) {
+			var cursor = 0
+			next()
+
+			function next() {
+				if (cursor === fns.length) return
+
+				var fn = fns[cursor++]
+				if (fn.length &gt; 0) {
+					var timeout = 0, delay = 200, s = new Date
+					var isDone = false
+					var body = fn.toString()
+					var arg = (body.match(/\(([\w$]+)/) || body.match(/([\w$]+)\s*=&gt;/) || []).pop()
+					if (body.indexOf(arg) === body.lastIndexOf(arg)) throw new Error("`" + arg + "()` should be called at least once")
+					try {
+						fn(function done() {
+							if (timeout !== undefined) {
+								timeout = clearTimeout(timeout)
+								if (delay !== Infinity) record(null)
+								if (!isDone) next()
+								else throw new Error("`" + arg + "()` should only be called once")
+								isDone = true
+							}
+							else console.log("# elapsed: " + Math.round(new Date - s) + "ms, expected under " + delay + "ms")
+						}, function(t) {delay = t})
+					}
+					catch (e) {
+						record(e.message, e)
+						subjects.pop()
+						next()
+					}
+					if (timeout === 0) {
+						timeout = setTimeout(function() {
+							timeout = undefined
+							record("async test timed out")
+							next()
+						}, Math.min(delay, 2147483647))
+					}
+				}
+				else {
+					fn()
+					nextTickish(next)
+				}
+			}
+		}
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.spec" id="apidoc.element.mithril.ospec.spec">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>spec
+        <span class="apidocSignatureSpan">(subject, predicate)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">spec = function (subject, predicate) {
+		var parent = ctx
+		ctx = ctx[unique(subject)] = {}
+		predicate()
+		ctx = parent
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+		if (predicate === undefined) {
+			if (results == null) throw new Error("Assertions should not occur outside test definitions")
+			return new Assert(subject)
+		}
+		else if (results == null) {
+			ctx[unique(subject)] = predicate
+		} else {
+			throw new Error("Test definition shouldn't be nested. To group tests use `o.<span class="apidocCodeKeywordSpan">spec
+</span>()`")
+		}
+	}
+	o.before = hook("__before")
+	o.after = hook("__after")
+	o.beforeEach = hook("__beforeEach")
+	o.afterEach = hook("__afterEach")
+	o.new = init
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.ospec.spy" id="apidoc.element.mithril.ospec.spy">
+        function <span class="apidocSignatureSpan">mithril.ospec.</span>spy
+        <span class="apidocSignatureSpan">(fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">spy = function (fn) {
+		var spy = function() {
+			spy.this = this
+			spy.args = [].slice.call(arguments)
+			spy.callCount++
+
+			if (fn) return fn.apply(this, arguments)
+		}
+		if (fn)
+			Object.defineProperties(spy, {
+				length: {value: fn.length},
+				name: {value: fn.name}
+			})
+		spy.args = []
+		spy.callCount = 0
+		return spy
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mithril.stream" id="apidoc.module.mithril.stream">module mithril.stream</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.stream.stream" id="apidoc.element.mithril.stream.stream">
+        function <span class="apidocSignatureSpan">mithril.</span>stream
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function createStream() {
+	function stream() {
+		if (arguments.length &gt; 0 &amp;&amp; arguments[0] !== HALT) updateStream(stream, arguments[0])
+		return stream._state.value
+	}
+	initStream(stream)
+
+	if (arguments.length &gt; 0 &amp;&amp; arguments[0] !== HALT) updateStream(stream, arguments[0])
+
+	return stream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.stream.combine" id="apidoc.element.mithril.stream.combine">
+        function <span class="apidocSignatureSpan">mithril.stream.</span>combine
+        <span class="apidocSignatureSpan">(fn, streams)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function combine(fn, streams) {
+	if (!streams.every(valid)) throw new Error("Ensure that each item passed to stream.combine/stream.merge is a stream")
+	return initDependency(createStream(), streams, function() {
+		return fn.apply(this, streams.concat([streams.filter(changed)]))
+	})
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.stream.merge" id="apidoc.element.mithril.stream.merge">
+        function <span class="apidocSignatureSpan">mithril.stream.</span>merge
+        <span class="apidocSignatureSpan">(streams)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function merge(streams) {
+	return combine(function() {
+		return streams.map(function(s) {return s()})
+	}, streams)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.stream.scan" id="apidoc.element.mithril.stream.scan">
+        function <span class="apidocSignatureSpan">mithril.stream.</span>scan
+        <span class="apidocSignatureSpan">(reducer, seed, stream)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function scan(reducer, seed, stream) {
+	var newStream = combine(function (s) {
+		return seed = reducer(seed, s._state.value)
+	}, [stream])
+
+	if (newStream._state.state === 0) newStream(seed)
+
+	return newStream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.stream.scanMerge" id="apidoc.element.mithril.stream.scanMerge">
+        function <span class="apidocSignatureSpan">mithril.stream.</span>scanMerge
+        <span class="apidocSignatureSpan">(tuples, seed)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function scanMerge(tuples, seed) {
+	var streams = tuples.map(function(tuple) {
+		var stream = tuple[0]
+		if (stream._state.state === 0) stream(undefined)
+		return stream
+	})
+
+	var newStream = combine(function() {
+		var changed = arguments[arguments.length - 1]
+
+		streams.forEach(function(stream, idx) {
+			if (changed.indexOf(stream) &gt; -1) {
+				seed = tuples[idx][1](seed, stream._state.value)
+			}
+		})
+
+		return seed
+	}, streams)
+
+	return newStream
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mithril.vnode" id="apidoc.module.mithril.vnode">module mithril.vnode</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.vnode.vnode" id="apidoc.element.mithril.vnode.vnode">
+        function <span class="apidocSignatureSpan">mithril.</span>vnode
+        <span class="apidocSignatureSpan">(tag, key, attrs, children, text, dom)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Vnode(tag, key, attrs, children, text, dom) {
+	return {tag: tag, key: key, attrs: attrs, children: children, text: text, dom: dom, domSize: undefined, state: undefined, _state
+: undefined, events: undefined, instance: undefined, skip: false}
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.vnode.normalize" id="apidoc.element.mithril.vnode.normalize">
+        function <span class="apidocSignatureSpan">mithril.vnode.</span>normalize
+        <span class="apidocSignatureSpan">(node)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">normalize = function (node) {
+	if (Array.isArray(node)) return Vnode("[", undefined, undefined, Vnode.normalizeChildren(node), undefined, undefined)
+	if (node != null &amp;&amp; typeof node !== "object") return Vnode("#", undefined, undefined, node === false ? "" : node, undefined, undefined
+)
+	return node
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+Vnode.normalize = function(node) {
+	if (Array.isArray(node)) return Vnode("[", undefined, undefined, Vnode.normalizeChildren(node), undefined, undefined)
+	if (node != null &amp;&amp; typeof node !== "object") return Vnode("#", undefined, undefined, node === false
+ ? "" : node, undefined, undefined)
+	return node
+}
+Vnode.normalizeChildren = function normalizeChildren(children) {
+	for (var i = 0; i &lt; children.length; i++) {
+		children[i] = Vnode.<span class="apidocCodeKeywordSpan">normalize</span>(children[i])
+	}
+	return children
+}
+var selectorParser = /(?:(^|#|\.)([^#\.\[\]]+))|(\[(.+?)(?:\s*=\s*("|'|)((?:\\["'\]]|.)*?)\5)?\])/g
+var selectorCache = {}
+var hasOwn = {}.hasOwnProperty
+function compileSelector(selector) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mithril.vnode.normalizeChildren" id="apidoc.element.mithril.vnode.normalizeChildren">
+        function <span class="apidocSignatureSpan">mithril.vnode.</span>normalizeChildren
+        <span class="apidocSignatureSpan">(children)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function normalizeChildren(children) {
+	for (var i = 0; i &lt; children.length; i++) {
+		children[i] = Vnode.normalize(children[i])
+	}
+	return children
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+;(function() {
+"use strict"
+function Vnode(tag, key, attrs0, children, text, dom) {
+	return {tag: tag, key: key, attrs: attrs0, children: children, text: text, dom: dom, domSize: undefined, state: undefined, _state
+: undefined, events: undefined, instance: undefined, skip: false}
+}
+Vnode.normalize = function(node) {
+	if (Array.isArray(node)) return Vnode("[", undefined, undefined, Vnode.<span class="apidocCodeKeywordSpan">normalizeChildren
+</span>(node), undefined, undefined)
+	if (node != null &amp;&amp; typeof node !== "object") return Vnode("#", undefined, undefined, node === false
+ ? "" : node, undefined, undefined)
+	return node
+}
+Vnode.normalizeChildren = function normalizeChildren(children) {
+	for (var i = 0; i &lt; children.length; i++) {
+		children[i] = Vnode.normalize(children[i])
+	}
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>

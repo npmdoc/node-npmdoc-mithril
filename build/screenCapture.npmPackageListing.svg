@@ -1,0 +1,189 @@
+<svg height="2974" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2974" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-22 14:59:27 +0000  1088850 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-22 14:59:27 +0000     1076 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-22 14:59:27 +0000     9541 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-22 14:59:27 +0000      539 bytes  api/mount.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-22 14:59:27 +0000     1186 bytes  api/redraw.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-22 14:59:27 +0000     2415 bytes  api/router.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-22 14:59:27 +0000     1461 bytes  api/tests/index.html</tspan>
+<tspan x="10" y="138">  7.  2017-04-22 14:59:27 +0000     5600 bytes  api/tests/test-mount.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-22 14:59:27 +0000     2027 bytes  api/tests/test-redraw.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-22 14:59:27 +0000    27027 bytes  api/tests/test-router.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-22 14:59:27 +0000      116 bytes  browser.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-22 14:59:27 +0000     2414 bytes  bundler/README.md</tspan>
+<tspan x="10" y="218"> 12.  2017-04-22 14:59:27 +0000       52 bytes  bundler/bin/bundle</tspan>
+<tspan x="10" y="234"> 13.  2017-04-22 14:59:27 +0000       12 bytes  bundler/bin/bundle.cmd</tspan>
+<tspan x="10" y="250"> 14.  2017-04-22 14:59:27 +0000     5600 bytes  bundler/bundle.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-22 14:59:27 +0000     1470 bytes  bundler/cli.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-22 14:59:27 +0000     1487 bytes  bundler/minify.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-22 14:59:27 +0000    12463 bytes  bundler/tests/test-bundler.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-22 14:59:27 +0000       15 bytes  docs/CNAME</tspan>
+<tspan x="10" y="330"> 19.  2017-04-22 14:59:27 +0000     4456 bytes  docs/animation.md</tspan>
+<tspan x="10" y="346"> 20.  2017-04-22 14:59:27 +0000     2660 bytes  docs/api.md</tspan>
+<tspan x="10" y="362"> 21.  2017-04-22 14:59:27 +0000     4132 bytes  docs/autoredraw.md</tspan>
+<tspan x="10" y="378"> 22.  2017-04-22 14:59:27 +0000     1270 bytes  docs/buildQueryString.md</tspan>
+<tspan x="10" y="394"> 23.  2017-04-22 14:59:27 +0000    18604 bytes  docs/change-log.md</tspan>
+<tspan x="10" y="410"> 24.  2017-04-22 14:59:27 +0000    15731 bytes  docs/components.md</tspan>
+<tspan x="10" y="426"> 25.  2017-04-22 14:59:27 +0000     5984 bytes  docs/contributing.md</tspan>
+<tspan x="10" y="442"> 26.  2017-04-22 14:59:27 +0000     2144 bytes  docs/credits.md</tspan>
+<tspan x="10" y="458"> 27.  2017-04-22 14:59:27 +0000     4182 bytes  docs/css.md</tspan>
+<tspan x="10" y="474"> 28.  2017-04-22 14:59:27 +0000     3197 bytes  docs/es6.md</tspan>
+<tspan x="10" y="490"> 29.  2017-04-22 14:59:27 +0000      783 bytes  docs/examples.md</tspan>
+<tspan x="10" y="506"> 30.  2017-04-22 14:59:27 +0000     2564 bytes  docs/fragment.md</tspan>
+<tspan x="10" y="522"> 31.  2017-04-22 14:59:27 +0000    23825 bytes  docs/framework-comparison.md</tspan>
+<tspan x="10" y="538"> 32.  2017-04-22 14:59:27 +0000     3258 bytes  docs/generate.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-22 14:59:27 +0000    14272 bytes  docs/hyperscript.md</tspan>
+<tspan x="10" y="570"> 34.  2017-04-22 14:59:27 +0000     9467 bytes  docs/index.md</tspan>
+<tspan x="10" y="586"> 35.  2017-04-22 14:59:27 +0000     8096 bytes  docs/installation.md</tspan>
+<tspan x="10" y="602"> 36.  2017-04-22 14:59:27 +0000     4311 bytes  docs/jsonp.md</tspan>
+<tspan x="10" y="618"> 37.  2017-04-22 14:59:27 +0000     7047 bytes  docs/jsx.md</tspan>
+<tspan x="10" y="634"> 38.  2017-04-22 14:59:27 +0000     6403 bytes  docs/keys.md</tspan>
+<tspan x="10" y="650"> 39.  2017-04-22 14:59:27 +0000     1280 bytes  docs/layout.html</tspan>
+<tspan x="10" y="666"> 40.  2017-04-22 14:59:27 +0000     9138 bytes  docs/lifecycle-methods.md</tspan>
+<tspan x="10" y="682"> 41.  2017-04-22 14:59:27 +0000     5969 bytes  docs/lint.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-22 14:59:27 +0000     2226 bytes  docs/logo.svg</tspan>
+<tspan x="10" y="714"> 43.  2017-04-22 14:59:27 +0000     3609 bytes  docs/mount.md</tspan>
+<tspan x="10" y="730"> 44.  2017-04-22 14:59:27 +0000      666 bytes  docs/nav-guides.md</tspan>
+<tspan x="10" y="746"> 45.  2017-04-22 14:59:27 +0000      511 bytes  docs/nav-methods.md</tspan>
+<tspan x="10" y="762"> 46.  2017-04-22 14:59:27 +0000     1661 bytes  docs/parseQueryString.md</tspan>
+<tspan x="10" y="778"> 47.  2017-04-22 14:59:27 +0000    12956 bytes  docs/promise.md</tspan>
+<tspan x="10" y="794"> 48.  2017-04-22 14:59:27 +0000     1633 bytes  docs/redraw.md</tspan>
+<tspan x="10" y="810"> 49.  2017-04-22 14:59:27 +0000     1923 bytes  docs/releasing.md</tspan>
+<tspan x="10" y="826"> 50.  2017-04-22 14:59:27 +0000     4094 bytes  docs/render.md</tspan>
+<tspan x="10" y="842"> 51.  2017-04-22 14:59:27 +0000    22448 bytes  docs/request.md</tspan>
+<tspan x="10" y="858"> 52.  2017-04-22 14:59:27 +0000    26819 bytes  docs/route.md</tspan>
+<tspan x="10" y="874"> 53.  2017-04-22 14:59:27 +0000     3199 bytes  docs/signatures.md</tspan>
+<tspan x="10" y="890"> 54.  2017-04-22 14:59:27 +0000    24967 bytes  docs/simple-application.md</tspan>
+<tspan x="10" y="906"> 55.  2017-04-22 14:59:27 +0000    20696 bytes  docs/stream.md</tspan>
+<tspan x="10" y="922"> 56.  2017-04-22 14:59:27 +0000     4561 bytes  docs/style.css</tspan>
+<tspan x="10" y="938"> 57.  2017-04-22 14:59:27 +0000     3908 bytes  docs/testing.md</tspan>
+<tspan x="10" y="954"> 58.  2017-04-22 14:59:27 +0000     7770 bytes  docs/trust.md</tspan>
+<tspan x="10" y="970"> 59.  2017-04-22 14:59:27 +0000      879 bytes  docs/version.md</tspan>
+<tspan x="10" y="986"> 60.  2017-04-22 14:59:27 +0000     8855 bytes  docs/vnodes.md</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-22 14:59:27 +0000     3574 bytes  docs/withAttr.md</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-22 14:59:27 +0000    60035 bytes  examples/animation/flowers.jpg</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-22 14:59:27 +0000     1301 bytes  examples/animation/mosaic.html</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-22 14:59:27 +0000     5803 bytes  examples/dbmonster/ENV.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-22 14:59:27 +0000     1473 bytes  examples/dbmonster/angular/app.js</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-22 14:59:27 +0000      679 bytes  examples/dbmonster/angular/index.html</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-22 14:59:27 +0000     3070 bytes  examples/dbmonster/memory-stats.js</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-22 14:59:27 +0000     1113 bytes  examples/dbmonster/mithril/app.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-22 14:59:27 +0000      454 bytes  examples/dbmonster/mithril/index.html</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-22 14:59:27 +0000     1854 bytes  examples/dbmonster/monitor.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-22 14:59:27 +0000     1207 bytes  examples/dbmonster/react/app.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-22 14:59:27 +0000      563 bytes  examples/dbmonster/react/index.html</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-22 14:59:27 +0000     1881 bytes  examples/dbmonster/styles.css</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-22 14:59:27 +0000     1268 bytes  examples/dbmonster/vue/app.js</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-22 14:59:27 +0000      413 bytes  examples/dbmonster/vue/index.html</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-22 14:59:27 +0000     1000 bytes  examples/editor/index.html</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-22 14:59:27 +0000     2502 bytes  examples/svg/clock.html</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-22 14:59:27 +0000    43788 bytes  examples/svg/ring.html</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-22 14:59:27 +0000    70734 bytes  examples/svg/tiger.html</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-22 14:59:27 +0000     4174 bytes  examples/threaditjs/app.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-22 14:59:27 +0000      190 bytes  examples/threaditjs/colors.css</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-22 14:59:27 +0000      515 bytes  examples/threaditjs/index.html</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-22 14:59:27 +0000     6534 bytes  examples/todomvc/app.css</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-22 14:59:27 +0000     1818 bytes  examples/todomvc/base.css</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-22 14:59:27 +0000      455 bytes  examples/todomvc/index.html</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-22 14:59:27 +0000     4275 bytes  examples/todomvc/todomvc.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-22 14:59:27 +0000      193 bytes  hyperscript.js</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-22 14:59:27 +0000      612 bytes  index.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-22 14:59:27 +0000    45728 bytes  mithril.js</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-22 14:59:27 +0000    22011 bytes  mithril.min.js</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-22 14:59:27 +0000     2514 bytes  module/README.md</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-22 14:59:27 +0000     1141 bytes  module/module.js</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-22 14:59:27 +0000      110 bytes  mount.js</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-22 14:59:27 +0000    11365 bytes  ospec/README.md</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-22 14:59:27 +0000     1205 bytes  ospec/bin/ospec</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-22 14:59:27 +0000       11 bytes  ospec/bin/ospec.cmd</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-22 14:59:27 +0000     7634 bytes  ospec/ospec.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-22 14:59:27 +0000      341 bytes  ospec/package.json</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-22 14:59:27 +0000      310 bytes  ospec/tests/index.html</tspan>
+<tspan x="10" y="1626">100.  2017-04-22 14:59:27 +0000     3354 bytes  ospec/tests/test-ospec.js</tspan>
+<tspan x="10" y="1642">101.  2017-04-22 14:59:27 +0000     1134 bytes  package.json</tspan>
+<tspan x="10" y="1658">102.  2017-04-22 14:59:27 +0000     3784 bytes  promise/promise.js</tspan>
+<tspan x="10" y="1674">103.  2017-04-22 14:59:27 +0000      391 bytes  promise/tests/index.html</tspan>
+<tspan x="10" y="1690">104.  2017-04-22 14:59:27 +0000    15531 bytes  promise/tests/test-promise.js</tspan>
+<tspan x="10" y="1706">105.  2017-04-22 14:59:27 +0000      672 bytes  querystring/build.js</tspan>
+<tspan x="10" y="1722">106.  2017-04-22 14:59:27 +0000     1079 bytes  querystring/parse.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-22 14:59:27 +0000      450 bytes  querystring/tests/index.html</tspan>
+<tspan x="10" y="1754">108.  2017-04-22 14:59:27 +0000     2495 bytes  querystring/tests/test-buildQueryString.js</tspan>
+<tspan x="10" y="1770">109.  2017-04-22 14:59:27 +0000     3206 bytes  querystring/tests/test-parseQueryString.js</tspan>
+<tspan x="10" y="1786">110.  2017-04-22 14:59:27 +0000       63 bytes  redraw.js</tspan>
+<tspan x="10" y="1802">111.  2017-04-22 14:59:27 +0000       66 bytes  render.js</tspan>
+<tspan x="10" y="1818">112.  2017-04-22 14:59:27 +0000      195 bytes  render/fragment.js</tspan>
+<tspan x="10" y="1834">113.  2017-04-22 14:59:27 +0000     2792 bytes  render/hyperscript.js</tspan>
+<tspan x="10" y="1850">114.  2017-04-22 14:59:27 +0000    22925 bytes  render/render.js</tspan>
+<tspan x="10" y="1866">115.  2017-04-22 14:59:27 +0000     1925 bytes  render/tests/index.html</tspan>
+<tspan x="10" y="1882">116.  2017-04-22 14:59:27 +0000     4753 bytes  render/tests/test-attributes.js</tspan>
+<tspan x="10" y="1898">117.  2017-04-22 14:59:27 +0000    28288 bytes  render/tests/test-component.js</tspan>
+<tspan x="10" y="1914">118.  2017-04-22 14:59:27 +0000     3076 bytes  render/tests/test-createElement.js</tspan>
+<tspan x="10" y="1930">119.  2017-04-22 14:59:27 +0000     1244 bytes  render/tests/test-createFragment.js</tspan>
+<tspan x="10" y="1946">120.  2017-04-22 14:59:27 +0000     2395 bytes  render/tests/test-createHTML.js</tspan>
+<tspan x="10" y="1962">121.  2017-04-22 14:59:27 +0000     1664 bytes  render/tests/test-createNodes.js</tspan>
+<tspan x="10" y="1978">122.  2017-04-22 14:59:27 +0000     1833 bytes  render/tests/test-createText.js</tspan>
+<tspan x="10" y="1994">123.  2017-04-22 14:59:27 +0000     2613 bytes  render/tests/test-event.js</tspan>
+<tspan x="10" y="2010">124.  2017-04-22 14:59:27 +0000      750 bytes  render/tests/test-fragment.js</tspan>
+<tspan x="10" y="2026">125.  2017-04-22 14:59:27 +0000    14984 bytes  render/tests/test-hyperscript.js</tspan>
+<tspan x="10" y="2042">126.  2017-04-22 14:59:27 +0000     4027 bytes  render/tests/test-input.js</tspan>
+<tspan x="10" y="2058">127.  2017-04-22 14:59:27 +0000     1432 bytes  render/tests/test-normalize.js</tspan>
+<tspan x="10" y="2074">128.  2017-04-22 14:59:27 +0000      695 bytes  render/tests/test-normalizeChildren.js</tspan>
+<tspan x="10" y="2090">129.  2017-04-22 14:59:27 +0000     5811 bytes  render/tests/test-onbeforeremove.js</tspan>
+<tspan x="10" y="2106">130.  2017-04-22 14:59:27 +0000     8860 bytes  render/tests/test-onbeforeupdate.js</tspan>
+<tspan x="10" y="2122">131.  2017-04-22 14:59:27 +0000     7014 bytes  render/tests/test-oncreate.js</tspan>
+<tspan x="10" y="2138">132.  2017-04-22 14:59:27 +0000     6025 bytes  render/tests/test-oninit.js</tspan>
+<tspan x="10" y="2154">133.  2017-04-22 14:59:27 +0000     4218 bytes  render/tests/test-onremove.js</tspan>
+<tspan x="10" y="2170">134.  2017-04-22 14:59:27 +0000     5633 bytes  render/tests/test-onupdate.js</tspan>
+<tspan x="10" y="2186">135.  2017-04-22 14:59:27 +0000     7394 bytes  render/tests/test-render.js</tspan>
+<tspan x="10" y="2202">136.  2017-04-22 14:59:27 +0000     5766 bytes  render/tests/test-textContent.js</tspan>
+<tspan x="10" y="2218">137.  2017-04-22 14:59:27 +0000      670 bytes  render/tests/test-trust.js</tspan>
+<tspan x="10" y="2234">138.  2017-04-22 14:59:27 +0000     7653 bytes  render/tests/test-updateElement.js</tspan>
+<tspan x="10" y="2250">139.  2017-04-22 14:59:27 +0000     1801 bytes  render/tests/test-updateFragment.js</tspan>
+<tspan x="10" y="2266">140.  2017-04-22 14:59:27 +0000     1282 bytes  render/tests/test-updateHTML.js</tspan>
+<tspan x="10" y="2282">141.  2017-04-22 14:59:27 +0000    32408 bytes  render/tests/test-updateNodes.js</tspan>
+<tspan x="10" y="2298">142.  2017-04-22 14:59:27 +0000     2999 bytes  render/tests/test-updateText.js</tspan>
+<tspan x="10" y="2314">143.  2017-04-22 14:59:27 +0000      188 bytes  render/trust.js</tspan>
+<tspan x="10" y="2330">144.  2017-04-22 14:59:27 +0000      773 bytes  render/vnode.js</tspan>
+<tspan x="10" y="2346">145.  2017-04-22 14:59:27 +0000      136 bytes  request.js</tspan>
+<tspan x="10" y="2362">146.  2017-04-22 14:59:27 +0000     5392 bytes  request/request.js</tspan>
+<tspan x="10" y="2378">147.  2017-04-22 14:59:27 +0000      753 bytes  request/tests/index.html</tspan>
+<tspan x="10" y="2394">148.  2017-04-22 14:59:27 +0000     3599 bytes  request/tests/test-jsonp.js</tspan>
+<tspan x="10" y="2410">149.  2017-04-22 14:59:27 +0000    15468 bytes  request/tests/test-request.js</tspan>
+<tspan x="10" y="2426">150.  2017-04-22 14:59:27 +0000      119 bytes  route.js</tspan>
+<tspan x="10" y="2442">151.  2017-04-22 14:59:27 +0000     3644 bytes  router/router.js</tspan>
+<tspan x="10" y="2458">152.  2017-04-22 14:59:27 +0000      901 bytes  router/tests/index.html</tspan>
+<tspan x="10" y="2474">153.  2017-04-22 14:59:27 +0000     8763 bytes  router/tests/test-defineRoutes.js</tspan>
+<tspan x="10" y="2490">154.  2017-04-22 14:59:27 +0000     1739 bytes  router/tests/test-getPath.js</tspan>
+<tspan x="10" y="2506">155.  2017-04-22 14:59:27 +0000     5248 bytes  router/tests/test-setPath.js</tspan>
+<tspan x="10" y="2522">156.  2017-04-22 14:59:27 +0000       58 bytes  stream.js</tspan>
+<tspan x="10" y="2538">157.  2017-04-22 14:59:27 +0000      321 bytes  stream/package.json</tspan>
+<tspan x="10" y="2554">158.  2017-04-22 14:59:27 +0000     4971 bytes  stream/stream.js</tspan>
+<tspan x="10" y="2570">159.  2017-04-22 14:59:27 +0000      570 bytes  stream/tests/index.html</tspan>
+<tspan x="10" y="2586">160.  2017-04-22 14:59:27 +0000      694 bytes  stream/tests/test-scan.js</tspan>
+<tspan x="10" y="2602">161.  2017-04-22 14:59:27 +0000      743 bytes  stream/tests/test-scanMerge.js</tspan>
+<tspan x="10" y="2618">162.  2017-04-22 14:59:27 +0000    12067 bytes  stream/tests/test-stream.js</tspan>
+<tspan x="10" y="2634">163.  2017-04-22 14:59:27 +0000      249 bytes  test-utils/README.md</tspan>
+<tspan x="10" y="2650">164.  2017-04-22 14:59:27 +0000      424 bytes  test-utils/browserMock.js</tspan>
+<tspan x="10" y="2666">165.  2017-04-22 14:59:27 +0000       94 bytes  test-utils/callAsync.js</tspan>
+<tspan x="10" y="2682">166.  2017-04-22 14:59:27 +0000      696 bytes  test-utils/components.js</tspan>
+<tspan x="10" y="2698">167.  2017-04-22 14:59:27 +0000    13955 bytes  test-utils/domMock.js</tspan>
+<tspan x="10" y="2714">168.  2017-04-22 14:59:27 +0000     2033 bytes  test-utils/parseURL.js</tspan>
+<tspan x="10" y="2730">169.  2017-04-22 14:59:27 +0000     4884 bytes  test-utils/pushStateMock.js</tspan>
+<tspan x="10" y="2746">170.  2017-04-22 14:59:27 +0000      997 bytes  test-utils/tests/index.html</tspan>
+<tspan x="10" y="2762">171.  2017-04-22 14:59:27 +0000     1135 bytes  test-utils/tests/test-browserMock.js</tspan>
+<tspan x="10" y="2778">172.  2017-04-22 14:59:27 +0000      495 bytes  test-utils/tests/test-callAsync.js</tspan>
+<tspan x="10" y="2794">173.  2017-04-22 14:59:27 +0000     1423 bytes  test-utils/tests/test-components.js</tspan>
+<tspan x="10" y="2810">174.  2017-04-22 14:59:27 +0000    30293 bytes  test-utils/tests/test-domMock.js</tspan>
+<tspan x="10" y="2826">175.  2017-04-22 14:59:27 +0000     5005 bytes  test-utils/tests/test-parseURL.js</tspan>
+<tspan x="10" y="2842">176.  2017-04-22 14:59:27 +0000    22118 bytes  test-utils/tests/test-pushStateMock.js</tspan>
+<tspan x="10" y="2858">177.  2017-04-22 14:59:27 +0000     3795 bytes  test-utils/tests/test-xhrMock.js</tspan>
+<tspan x="10" y="2874">178.  2017-04-22 14:59:27 +0000     2788 bytes  test-utils/xhrMock.js</tspan>
+<tspan x="10" y="2890">179.  2017-04-22 14:59:27 +0000      678 bytes  tests/index.html</tspan>
+<tspan x="10" y="2906">180.  2017-04-22 14:59:27 +0000     4372 bytes  tests/test-api.js</tspan>
+<tspan x="10" y="2922">181.  2017-04-22 14:59:27 +0000      336 bytes  util/tests/index.html</tspan>
+<tspan x="10" y="2938">182.  2017-04-22 14:59:27 +0000      851 bytes  util/tests/test-withAttr.js</tspan>
+<tspan x="10" y="2954">183.  2017-04-22 14:59:27 +0000      229 bytes  util/withAttr.js</tspan>
+</text>
+</svg>
